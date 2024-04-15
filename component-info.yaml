@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-lambda-function"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-lambda-workflow #name of the terraform repo
+    backstage.io/techdocs-ref: dir:.
+  title: "backstage-lambda-function"
+  description: "Testing"
+  tags: ["aws-lambda"]
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
